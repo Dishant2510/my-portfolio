@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex Hehe | Developer & Designer</title>
+    <title>Dishant Kothari | Developer & Designer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         /* CSS Styles */
@@ -621,48 +621,19 @@
             font-size: 1.5rem;
         }
 
-        .skill-bars {
+        .skills-list {
             display: flex;
-            flex-direction: column;
-            gap: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
         }
 
-        .skill {
-            margin-bottom: 15px;
-        }
-
-        .skill-info {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 8px;
-        }
-
-        .skill-name {
-            color: var(--light-color);
-            font-size: 14px;
-            font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
-        }
-
-        .skill-percent {
+        .skill-tag {
+            background: rgba(0, 240, 255, 0.1);
+            padding: 8px 15px;
+            border-radius: 4px;
             color: var(--primary-color);
-            font-size: 14px;
             font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
-        }
-
-        .bar {
-            width: 100%;
-            height: 6px;
-            background: var(--light-gray);
-            border-radius: 3px;
-            overflow: hidden;
-        }
-
-        .progress {
-            height: 100%;
-            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
-            border-radius: 3px;
-            width: 0;
-            transition: width 1s ease-in-out;
+            font-size: 14px;
         }
 
         /* Projects Section */
@@ -1185,9 +1156,9 @@
         <div class="container">
             <div class="hero-content">
                 <h4 class="hero-subtitle">Hi, my name is</h4>
-                <h1 class="hero-title">Alex Carter.</h1>
+                <h1 class="hero-title">Dishant Kothari.</h1>
                 <h2 class="hero-tagline">I build digital experiences.</h2>
-                <p class="hero-description">I'm a <span class="text-gradient">full-stack developer</span>, <span class="text-gradient">UI/UX designer</span>, and <span class="text-gradient">cloud specialist</span> focused on creating high-performance, visually stunning applications that solve real problems.</p>
+                <p class="hero-description">I'm a <span class="text-gradient">developer</span>, <span class="text-gradient">cloud specialist</span>, and <span class="text-gradient">UI/UX designer</span> focused on creating high-performance, visually stunning applications that solve real problems.</p>
                 <div class="cta-buttons">
                     <a href="#projects" class="btn primary">
                         <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
@@ -1244,9 +1215,9 @@
             </h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>Hello! I'm Alex, a computer science student with a passion for creating innovative digital solutions that bridge the gap between technology and design.</p>
+                    <p>Hello! I'm Dishant, a computer science student with a passion for creating innovative digital solutions that bridge the gap between technology and design.</p>
                     <p>My journey in tech began when I wrote my first line of HTML at 14, and since then I've been obsessed with the intersection of code, design, and infrastructure. I specialize in building responsive web applications with thoughtful UI/UX and scalable cloud architecture.</p>
-                    <p>Currently, I'm focused on mastering <span class="highlight">serverless architectures</span> and <span class="highlight">design systems</span> while completing my degree at Tech University.</p>
+                    <p>Currently, I'm focused on mastering <span class="highlight">cloud technologies</span> and <span class="highlight">design systems</span> while completing my degree at BPPIMT.</p>
                     
                     <div class="terminal">
                         <div class="terminal-header">
@@ -1255,7 +1226,7 @@
                                 <span class="terminal-btn yellow"></span>
                                 <span class="terminal-btn green"></span>
                             </div>
-                            <div class="terminal-title">alex@portfolio: ~</div>
+                            <div class="terminal-title">dishant@portfolio: ~</div>
                         </div>
                         <div class="terminal-body">
                             <div class="terminal-line">
@@ -1263,10 +1234,10 @@
                                 <span class="terminal-command">cat education.txt</span>
                             </div>
                             <div class="terminal-line">
-                                <span class="terminal-output">Tech University - B.Sc. Computer Science</span>
+                                <span class="terminal-output">BPPIMT - B.Tech Computer Science</span>
                             </div>
                             <div class="terminal-line">
-                                <span class="terminal-output">Expected Graduation: May 2025 | GPA: 3.8/4.0</span>
+                                <span class="terminal-output">2023-2027</span>
                             </div>
                             <div class="terminal-line">
                                 <span class="terminal-prompt">$</span>
@@ -1311,72 +1282,15 @@
                         <i class="fas fa-code category-icon"></i>
                         <h3>Development</h3>
                     </div>
-                    <div class="skill-bars">
-                        <div class="skill" data-level="90">
-                            <div class="skill-info">
-                                <span class="skill-name">JavaScript/TypeScript</span>
-                                <span class="skill-percent">90%</span>
-                            </div>
-                            <div class="bar"><div class="progress"></div></div>
-                        </div>
-                        <div class="skill" data-level="85">
-                            <div class="skill-info">
-                                <span class="skill-name">React/Next.js</span>
-                                <span class="skill-percent">85%</span>
-                            </div>
-                            <div class="bar"><div class="progress"></div></div>
-                        </div>
-                        <div class="skill" data-level="80">
-                            <div class="skill-info">
-                                <span class="skill-name">Node.js/Express</span>
-                                <span class="skill-percent">80%</span>
-                            </div>
-                            <div class="bar"><div class="progress"></div></div>
-                        </div>
-                        <div class="skill" data-level="75">
-                            <div class="skill-info">
-                                <span class="skill-name">Python/Django</span>
-                                <span class="skill-percent">75%</span>
-                            </div>
-                            <div class="bar"><div class="progress"></div></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-paint-brush category-icon"></i>
-                        <h3>UI/UX Design</h3>
-                    </div>
-                    <div class="skill-bars">
-                        <div class="skill" data-level="85">
-                            <div class="skill-info">
-                                <span class="skill-name">Figma/Adobe XD</span>
-                                <span class="skill-percent">85%</span>
-                            </div>
-                            <div class="bar"><div class="progress"></div></div>
-                        </div>
-                        <div class="skill" data-level="80">
-                            <div class="skill-info">
-                                <span class="skill-name">User Research</span>
-                                <span class="skill-percent">80%</span>
-                            </div>
-                            <div class="bar"><div class="progress"></div></div>
-                        </div>
-                        <div class="skill" data-level="75">
-                            <div class="skill-info">
-                                <span class="skill-name">Prototyping</span>
-                                <span class="skill-percent">75%</span>
-                            </div>
-                            <div class="bar"><div class="progress"></div></div>
-                        </div>
-                        <div class="skill" data-level="70">
-                            <div class="skill-info">
-                                <span class="skill-name">Interaction Design</span>
-                                <span class="skill-percent">70%</span>
-                            </div>
-                            <div class="bar"><div class="progress"></div></div>
-                        </div>
+                    <div class="skills-list">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Django</span>
                     </div>
                 </div>
                 
@@ -1385,35 +1299,44 @@
                         <i class="fas fa-cloud category-icon"></i>
                         <h3>Cloud & DevOps</h3>
                     </div>
-                    <div class="skill-bars">
-                        <div class="skill" data-level="80">
-                            <div class="skill-info">
-                                <span class="skill-name">AWS Services</span>
-                                <span class="skill-percent">80%</span>
-                            </div>
-                            <div class="bar"><div class="progress"></div></div>
-                        </div>
-                        <div class="skill" data-level="75">
-                            <div class="skill-info">
-                                <span class="skill-name">Docker/Kubernetes</span>
-                                <span class="skill-percent">75%</span>
-                            </div>
-                            <div class="bar"><div class="progress"></div></div>
-                        </div>
-                        <div class="skill" data-level="70">
-                            <div class="skill-info">
-                                <span class="skill-name">CI/CD Pipelines</span>
-                                <span class="skill-percent">70%</span>
-                            </div>
-                            <div class="bar"><div class="progress"></div></div>
-                        </div>
-                        <div class="skill" data-level="65">
-                            <div class="skill-info">
-                                <span class="skill-name">Terraform</span>
-                                <span class="skill-percent">65%</span>
-                            </div>
-                            <div class="bar"><div class="progress"></div></div>
-                        </div>
+                    <div class="skills-list">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">Serverless</span>
+                        <span class="skill-tag">Cloud Architecture</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-paint-brush category-icon"></i>
+                        <h3>UI/UX Design</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Adobe XD</span>
+                        <span class="skill-tag">User Research</span>
+                        <span class="skill-tag">Prototyping</span>
+                        <span class="skill-tag">Interaction Design</span>
+                        <span class="skill-tag">Design Systems</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-users category-icon"></i>
+                        <h3>Soft Skills</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Time Management</span>
+                        <span class="skill-tag">Adaptability</span>
                     </div>
                 </div>
             </div>
@@ -1456,117 +1379,19 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <h3>TaskFlow App</h3>
-                        <p>A productivity application built with React, Node.js, and MongoDB with real-time collaboration features.</p>
+                        <h3>Pocket Pharmacist</h3>
+                        <p>An app to check compatibility between medicines, store your medical data, and has an AI assistant to discuss your symptoms.</p>
                         <div class="project-tags">
                             <span>React</span>
                             <span>Node.js</span>
-                            <span>MongoDB</span>
-                            <span>WebSockets</span>
+                            <span>AI</span>
+                            <span>Healthcare</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                                <span>Live Demo</span>
-                            </a>
-                            <a href="#" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i>
-                                <span>Code</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 2 -->
-                <div class="project-card" data-category="design">
-                    <div class="project-image">
-                        <div class="image-placeholder"></div>
-                        <div class="project-badge">
-                            <i class="fas fa-paint-brush"></i>
-                            <span>UI/UX</span>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h3>HealthTracker Redesign</h3>
-                        <p>Complete UI/UX redesign for a fitness tracking mobile app, including user research and prototyping.</p>
-                        <div class="project-tags">
-                            <span>Figma</span>
-                            <span>User Research</span>
-                            <span>Prototyping</span>
-                            <span>UI Design</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" target="_blank" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                                <span>Case Study</span>
-                            </a>
-                            <a href="#" target="_blank" class="project-link">
-                                <i class="fab fa-behance"></i>
-                                <span>Behance</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 3 -->
-                <div class="project-card" data-category="cloud">
-                    <div class="project-image">
-                        <div class="image-placeholder"></div>
-                        <div class="project-badge">
-                            <i class="fas fa-cloud"></i>
-                            <span>Cloud</span>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Cloud Resume Challenge</h3>
-                        <p>Deployed a serverless resume website using AWS services including S3, CloudFront, Lambda, and DynamoDB.</p>
-                        <div class="project-tags">
-                            <span>AWS</span>
-                            <span>Terraform</span>
-                            <span>CI/CD</span>
-                            <span>Serverless</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" target="_blank" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                                <span>Live Demo</span>
-                            </a>
-                            <a href="#" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i>
-                                <span>Code</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 4 -->
-                <div class="project-card" data-category="dev,design">
-                    <div class="project-image">
-                        <div class="image-placeholder"></div>
-                        <div class="project-badge">
-                            <i class="fas fa-code"></i>
-                            <i class="fas fa-paint-brush"></i>
-                            <span>Dev & Design</span>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h3>EcoMarket Platform</h3>
-                        <p>Full-stack e-commerce platform for sustainable products with custom design system.</p>
-                        <div class="project-tags">
-                            <span>Next.js</span>
-                            <span>Tailwind CSS</span>
-                            <span>Stripe</span>
-                            <span>Design System</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" target="_blank" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                                <span>Live Demo</span>
-                            </a>
-                            <a href="#" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i>
-                                <span>Code</span>
-                            </a>
+                            <span class="project-link" style="color: var(--primary-color);">
+                                <i class="fas fa-hourglass-half"></i>
+                                <span>In Progress</span>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -1592,16 +1417,7 @@
                             </div>
                             <div class="contact-text">
                                 <span>Email</span>
-                                <a href="mailto:alex.carter@example.com">alex.carter@example.com</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="contact-text">
-                                <span>Phone</span>
-                                <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                                <a href="mailto:kdishant.2510@gmail.com">kdishant.2510@gmail.com</a>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -1610,27 +1426,18 @@
                             </div>
                             <div class="contact-text">
                                 <span>Location</span>
-                                <span>San Francisco, CA</span>
+                                <span>West Bengal, India</span>
                             </div>
                         </div>
                     </div>
                     <div class="social-links">
                         <h4>Follow Me</h4>
                         <div class="social-icons">
-                            <a href="#" target="_blank" class="social-icon" data-tooltip="GitHub">
+                            <a href="https://github.com/Dishant2510" target="_blank" class="social-icon" data-tooltip="GitHub">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="#" target="_blank" class="social-icon" data-tooltip="LinkedIn">
+                            <a href="https://www.linkedin.com/in/dishant-kothari-17b36a211" target="_blank" class="social-icon" data-tooltip="LinkedIn">
                                 <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="#" target="_blank" class="social-icon" data-tooltip="Twitter">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" target="_blank" class="social-icon" data-tooltip="Behance">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" target="_blank" class="social-icon" data-tooltip="Dribbble">
-                                <i class="fab fa-dribbble"></i>
                             </a>
                         </div>
                     </div>
@@ -1650,7 +1457,7 @@
                     </div>
                     <div class="form-group">
                         <label for="message">Your Message</label>
-                        <textarea id="message" placeholder="Hi Alex, I'd like to talk about..." required></textarea>
+                        <textarea id="message" placeholder="Hi Dishant, I'd like to talk about..." required></textarea>
                     </div>
                     <button type="submit" class="btn primary">
                         <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
@@ -1666,7 +1473,7 @@
             <div class="footer-content">
                 <div class="footer-logo">
                     <span class="logo-bracket">{</span>
-                    <span>AC</span>
+                    <span>DK</span>
                     <span class="logo-bracket">}</span>
                 </div>
                 <div class="footer-links">
@@ -1677,12 +1484,11 @@
                     <a href="#contact">Contact</a>
                 </div>
                 <div class="footer-social">
-                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/Dishant2510" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/dishant-kothari-17b36a211" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <div class="footer-copyright">
-                    <p>Designed & Built by Alex Carter</p>
+                    <p>Designed & Built by Dishant Kothari</p>
                     <p>© <span id="year"></span> All Rights Reserved</p>
                 </div>
             </div>
@@ -1718,29 +1524,6 @@
                 const header = document.querySelector('header');
                 header.classList.toggle('scrolled', window.scrollY > 50);
             });
-            
-            // Animate skill bars
-            const skillsSection = document.querySelector('.skills');
-            const skillBars = document.querySelectorAll('.progress');
-            
-            function animateSkills() {
-                skillBars.forEach(bar => {
-                    const skillLevel = bar.parentElement.parentElement.getAttribute('data-level');
-                    bar.style.width = skillLevel + '%';
-                });
-            }
-            
-            // Intersection Observer for skills animation
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        animateSkills();
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, { threshold: 0.5 });
-            
-            observer.observe(skillsSection);
             
             // Project filtering
             const filterButtons = document.querySelectorAll('.filter-btn');
